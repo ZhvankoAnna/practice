@@ -1,0 +1,117 @@
+:root {
+    --primary-txt-cl: #ffffff;
+    --secondary-txt-cl: #000000;
+    --min-title: #101010;
+    --accent-color: #333333;
+    --secondary-accent-color: #ed4c5c;
+  }
+
+  body {
+    font-family: "Lato";
+    color: #ffffff;
+    background-color: grey;
+  }
+
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  .header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  .header-menu-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    text-transform: uppercase;
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color: var(--accent-color);
+  }
+
+  .header-authorization-btn {
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .header-authorization-btn:hover,
+  .header-authorization-btn:focus {
+    color: var(--accent-color);
+  }
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.19;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .hero-descr {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .hero-btn {
+    color: inherit;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .hero-btn:hover,
+  .hero-btn:focus {
+    color: var(--secondary-accent-color);
+  }
+
+  .managment-title {
+    color: var(--secondary-txt-cl);
+    font-size: 36px;
+    line-height: 1.19;
+  }
+
+  .managment-descr {
+      color: var(--secondary-txt-cl);
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  .managment-link {
+    color: var(--secondary-accent-color);
+    font-weight: 400;
+    line-height: 1.43;
+  }
+
+  .managment-link:hover,
+  .managment-link:focus {
+    color: var(--accent-color);
+  }
+
+  .managment-btn {
+      color: inherit;
+      background-color: var(--secondary-accent-color);
+      cursor: pointer;
+  }
+
+  .managment-btn:hover,
+  .managment-btn:focus {
+      color: var(--accent-color);
+  }
